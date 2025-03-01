@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+        }
+        header {
+            background: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 80px 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .hero img {
+            width: 200px;
+            border-radius: 50%;
+        }
+        section {
+            margin: 50px 0;
+            padding: 20px;
+            background: #1a1a1a;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#pengalaman">Pengalaman</a></li>
+                <li><a href="#keahlian">Keahlian</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section class="hero">
+            <img src="https://via.placeholder.com/200" alt="Foto Profil">
+            <h1>Nama Anda</h1>
+            <p>Web Developer | UI/UX Designer</p>
+        </section>
+        
+        <section id="profil">
+            <h2>Profil</h2>
+            <p>Deskripsi singkat tentang diri Anda, keahlian, dan tujuan karier.</p>
+        </section>
+        
+        <section id="pendidikan">
+            <h2>Pendidikan</h2>
+            <p><strong>Nama Universitas</strong> - Jurusan (Tahun Masuk - Tahun Lulus)</p>
+        </section>
+        
+        <section id="pengalaman">
+            <h2>Pengalaman Kerja</h2>
+            <p><strong>Nama Perusahaan</strong> - Posisi (Tahun Masuk - Tahun Keluar)</p>
+            <p>Deskripsi pekerjaan dan pencapaian.</p>
+        </section>
+        
+        <section id="keahlian">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>Keahlian 1</li>
+                <li>Keahlian 2</li>
+                <li>Keahlian 3</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
